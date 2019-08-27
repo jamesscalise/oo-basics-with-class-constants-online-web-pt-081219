@@ -24,4 +24,4 @@ class Shoe
 end
 
 yes = Shoe.new("PRADA")
-puts yes.BRANDS
+puts yes.brand
