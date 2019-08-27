@@ -19,6 +19,7 @@ class Shoe
       @brand = brand
       BRANDS << brand
       puts "adding " + brand
+      puts BRANDS
     end
   end
 end
