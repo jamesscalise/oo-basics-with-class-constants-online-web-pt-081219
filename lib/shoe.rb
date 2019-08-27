@@ -14,9 +14,11 @@ class Shoe
   end
   
   def brand=(brand)
+    @brand = brand
     if !(brand.in(BRANDS))
       @brand = brand
       BRANDS << brand
+      puts "adding " + brand
     end
   end
 end
