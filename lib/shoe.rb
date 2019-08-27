@@ -24,4 +24,6 @@ class Shoe
 end
 
 yes = Shoe.new("PRADA")
+yes.brand="DIOR"
+yes.brand="CHANEL"
 puts yes.BRANDS
